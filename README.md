@@ -2,9 +2,9 @@
 
 **Gallery**
  
-![Image 1](assets/front_view.png.png)
-![Image 2](assets/side_view.png.png)
-![Image 3](assets/top_view.png.png)
+![Image 1](assets/front_view.png)
+![Image 2](assets/side_view.png)
+![Image 3](assets/top_view.png)
 
 **Project Overview**
 - **Purpose:** FPGA-based autonomous maze solver implemented for the Intel Cyclone IV E DE0-Nano development board. The design integrates sensor interfaces, maze-solving logic, motor actuation, and communications to drive and monitor a small mobile robot or platform.
