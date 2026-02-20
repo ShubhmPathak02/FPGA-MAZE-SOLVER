@@ -1,12 +1,3 @@
-/*
-# Team ID:          2486
-# Theme:            MB
-# Author List:      Alvin,kunz,Aryan,Mayan
-# Filename:         pwm_generator.v
-# File Description: scaling the 3125 clock to 195 by dividing by 16 and generating pwm
-# Global variables: clk_counter,pwm_counter
-*/
-
 module pwm_generator(
     input clk_3125KHz,
     input [3:0] duty_cycle,
