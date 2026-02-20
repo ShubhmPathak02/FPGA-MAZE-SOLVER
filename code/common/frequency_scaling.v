@@ -1,11 +1,3 @@
-/*
-# Team ID:          2486
-# Theme:            MB
-# Author List:      Alvin,kunz,Aryan,Mayan
-# Filename:         frequency_scaling.v
-# File Description: scaling the 50M clock to 3125K by dividing by 16
-# Global variables: counter
-*/
 module frequency_scaling (
     input clk_50M,
     output reg clk_3125KHz
