@@ -21,8 +21,6 @@
   - [code/logic/actuation_logic.v](code/logic/actuation_logic.v) — high-level actuator command sequencing.
   - [code/logic/solver.v](code/logic/solver.v) — maze-solving algorithm implementation.
   - [code/logic/pid_centering.v](code/logic/pid_centering.v) — PID controller for line/center keeping.
-  - [code/logic/pcb.v](code/logic/pcb.v) — glue logic / PCB-specific interfaces.
-  - [code/sensors/top.v](code/sensors/top.v) — sensor aggregation/top sensor module.
   - [code/sensors/ir.v](code/sensors/ir.v) — IR sensor interface and thresholding.
   - [code/sensors/ultrasonic.v](code/sensors/ultrasonic.v) — ultrasonic distance sensor controller.
   - [code/sensors/encoder.v](code/sensors/encoder.v) — wheel encoder interface.
@@ -72,7 +70,6 @@
 - Project file: [mazesolver.qpf](mazesolver.qpf)
 - Constraints: [mazesolver.qsf](mazesolver.qsf)
 - Top-level RTL: [code/mazesolver.v](code/mazesolver.v)
-- Sensor aggregation: [code/sensors/top.v](code/sensors/top.v)
 - Solver: [code/logic/solver.v](code/logic/solver.v)
 - Actuation: [code/actuators/pwm_generator.v](code/actuators/pwm_generator.v)
 
