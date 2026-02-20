@@ -1,0 +1,8 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ultrasonic:u_left|lpm_mult:Mult0|mult_aft:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ultrasonic:u_right|lpm_mult:Mult0|mult_aft:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ultrasonic:u_front|lpm_mult:Mult0|mult_aft:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ultrasonic:u_left|lpm_mult:Mult0|mult_aft:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ultrasonic:u_right|lpm_mult:Mult0|mult_aft:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ultrasonic:u_front|lpm_mult:Mult0|mult_aft:auto_generated|mac_out4,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,ultrasonic:u_left|lpm_mult:Mult0|mult_aft:auto_generated|mac_mult3,

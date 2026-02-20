@@ -1,0 +1,38 @@
+
+State Machine - |mazesolver|solver:s|latest_decision
+Name latest_decision.RIGHT latest_decision.LEFT latest_decision.FORWARD latest_decision.000 latest_decision.U_TURN 
+latest_decision.000 0 0 0 0 0 
+latest_decision.FORWARD 0 0 1 1 0 
+latest_decision.LEFT 0 1 0 1 0 
+latest_decision.RIGHT 1 0 0 1 0 
+latest_decision.U_TURN 0 0 0 1 1 
+
+State Machine - |mazesolver|solver:s|decision
+Name decision.RIGHT decision.LEFT decision.FORWARD decision.000 decision.U_TURN 
+decision.000 0 0 0 0 0 
+decision.FORWARD 0 0 1 1 0 
+decision.LEFT 0 1 0 1 0 
+decision.RIGHT 1 0 0 1 0 
+decision.U_TURN 0 0 0 1 1 
+
+State Machine - |mazesolver|solver:s|state
+Name state.MOVE_FORWARD state.LOCK state.TURN state.DEBOUNCE state.DECIDE 
+state.DECIDE 0 0 0 0 0 
+state.DEBOUNCE 0 0 0 1 1 
+state.TURN 0 0 1 0 1 
+state.LOCK 0 1 0 0 1 
+state.MOVE_FORWARD 1 0 0 0 1 
+
+State Machine - |mazesolver|ble:hc05|state
+Name state.IDLE state.WAIT_DONE state.SEND_CHAR 
+state.IDLE 0 0 0 
+state.SEND_CHAR 1 0 1 
+state.WAIT_DONE 1 1 0 
+
+State Machine - |mazesolver|ble:hc05|tx:u_tx|state
+Name state.PARITY_BIT state.DATA_BIT state.START_BIT state.INIT state.STOP_BIT 
+state.INIT 0 0 0 0 0 
+state.START_BIT 0 0 1 1 0 
+state.DATA_BIT 0 1 0 1 0 
+state.PARITY_BIT 1 0 0 1 0 
+state.STOP_BIT 0 0 0 1 1 
