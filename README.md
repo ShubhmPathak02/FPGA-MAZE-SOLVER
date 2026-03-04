@@ -56,7 +56,7 @@
 5. Run full-stack maze navigation in a controlled environment; monitor telemetry and SignalTap captures.
 
 **Troubleshooting Tips**
-- No programming detected: verify USB-Blaster driver, cable, and that board is powered.
+- No programming detected: verify the USB-Blaster driver, cable, and that board is powered.
 - Sensors reading incorrect values: check wiring, pull-ups/pull-downs, and signal conditioning (voltage levels).
 - Motors jitter/saturate: verify PWM frequency in `pwm_generator.v` and apply proper motor driver filtering.
 - Unexpected solver behavior: reproduce with simulation testbench and add SignalTap probes to `solver` outputs.
